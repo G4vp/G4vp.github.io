@@ -1,0 +1,12 @@
+:root{
+  background-color: #080613;
+  font-family: "HopeGold";
+  font-size: 1rem;
+  padding: 0px;
+  margin: 0px;
+}
+
+@font-face {
+  font-family: "HopeGold";
+  src: local("HopeGold"), url('./assets/fonts/ruler-gold-v1/RulerGold.ttf') format("truetype");
+}

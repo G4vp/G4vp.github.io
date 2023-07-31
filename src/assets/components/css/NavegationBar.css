@@ -1,0 +1,45 @@
+.navegationBar{
+    display: flex;
+    flex: 1;
+    border: 3px solid #fff;
+    border-radius: 1rem;
+    background-color: #080613;
+    justify-content: space-between;
+}
+.navegationBar__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0rem 5rem;
+    gap: 3rem;
+}
+
+.navegationBar__item{
+    list-style: none;
+    text-align: center;
+}
+
+.navegationBar__link{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.navegationBar__link:hover{
+    color: #db7272;
+}
+
+.socialNetworks_list{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0rem 5rem;
+    gap: 2rem;
+}
+
+.socialNetworks__item{
+    list-style: none;
+    text-align: center;
+    width: 1rem;
+    height: 1rem;
+}
