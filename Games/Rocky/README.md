@@ -1,1 +1,0 @@
-Game created as a christmas gift.
