@@ -1,4 +1,5 @@
 import '../css/NavegationBar.css'
+import Pdf from '../../documents/Gabriel_Viera_Resume.pdf'
 
 function NavegationBar() {
     return (
@@ -11,7 +12,7 @@ function NavegationBar() {
                     <a className="navegationBar__link navegationBar__link--projects" target="_blank" href="https://github.com/G4vp">Projects</a>
                 </li>
                 <li className='navegationBar__item'>
-                    <a className="navegationBar__link navegationBar__link--resume" target="_blank" href="https://drive.google.com/file/d/15vewEf7Q0nQ2N5gNPcWpcij6VWEbtnaB/view?usp=sharing">Resume</a>
+                    <a className="navegationBar__link navegationBar__link--resume" target="_blank" href= {Pdf}>Resume</a>
                 </li>
             </ul>
             <ul className="socialNetworks_list">
