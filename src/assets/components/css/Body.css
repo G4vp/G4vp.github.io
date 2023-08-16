@@ -4,7 +4,7 @@
     gap: 1rem;
     min-width: 10rem;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 37.5rem) {
     .body{
         flex-direction: column;
     }

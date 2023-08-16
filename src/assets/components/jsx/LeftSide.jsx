@@ -14,29 +14,29 @@ function LeftSide(){
     },[])
 
     return(
-        <div class="leftContainer">
-            <div class="leftContainer__top">
-                <div class="leftContainer__topImageContainer">
-                    <img class="leftContainer__topImage" src="src/assets/photos/IconBlank.png" alt="" />
+        <div className="leftContainer">
+            <div className="leftContainer__top">
+                <div className="leftContainer__topImageContainer">
+                    <img className="leftContainer__topImage" src="src/assets/photos/IconBlank.png" alt="" />
                 </div>
             </div>
 
-            <div class="leftContainer__bottom">
-                <h3 class="leftContainer__bottomTitle"> About Me :) </h3>
-                <ul class="leftContainer__bottomList">
-                    <li class="leftContainer__bottomElement">
-                        <h4 class="leftContainer__bottomSubTittle leftContainer__bottomSubTittle--age" >Age :</h4>
-                        <span class="leftContainer__bottomValue">{age}</span>
+            <div className="leftContainer__bottom">
+                <h3 className="leftContainer__bottomTitle"> About Me :) </h3>
+                <ul className="leftContainer__bottomList">
+                    <li className="leftContainer__bottomElement">
+                        <h4 className="leftContainer__bottomSubTittle leftContainer__bottomSubTittle--age" >Age :</h4>
+                        <span className="leftContainer__bottomValue">{age}</span>
                     </li>
-                    <li class="leftContainer__bottomElement">
-                        <h4 class="leftContainer__bottomSubTittle leftContainer__bottomSubTittle--bday">
+                    <li className="leftContainer__bottomElement">
+                        <h4 className="leftContainer__bottomSubTittle leftContainer__bottomSubTittle--bday">
                             B-Day :</h4>
-                        <span class="leftContainer__bottomValue">April, 08</span>
+                        <span className="leftContainer__bottomValue">April, 08</span>
                     </li>
-                    <li class="leftContainer__bottomElement">
-                        <h4 class="leftContainer__bottomSubTittle leftContainer__bottomSubTittle--country">
+                    <li className="leftContainer__bottomElement">
+                        <h4 className="leftContainer__bottomSubTittle leftContainer__bottomSubTittle--country">
                             Country :</h4>
-                        <span class="leftContainer__bottomValue">🇵🇷</span>
+                        <span className="leftContainer__bottomValue">🇵🇷</span>
                     </li>
                 </ul>
             </div>
