@@ -4,8 +4,8 @@ import Content from "./Content";
 function Body(){
     return(
         <div className="body">
-            <LeftSide/>
-            <Content/>
+            <LeftSide className="leftSide"/>
+            <Content className="content"/>
         </div>
     );
 }

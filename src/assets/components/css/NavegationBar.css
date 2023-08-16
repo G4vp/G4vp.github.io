@@ -5,6 +5,8 @@
     border-radius: 1rem;
     background-color: #080613;
     justify-content: space-between;
+
+    min-width: 10rem;
 }
 .navegationBar__list{
     display: flex;
@@ -42,4 +44,24 @@
     text-align: center;
     width: 1rem;
     height: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .navegationBar{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navegationBar__list{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0rem 0rem;
+    }
+    .socialNetworks_list{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0rem 0rem;
+    }
 }

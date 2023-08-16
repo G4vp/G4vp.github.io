@@ -71,3 +71,13 @@
 .leftContainer__bottomSubTittle{
     font-weight: bolder;
 }
+
+@media only screen and (max-width: 600px) {
+    .leftContainer__topImage{
+        border-radius: 1rem;
+        width: 50%;
+    }
+    .leftContainer__bottom{
+        display: none;
+    }
+}
