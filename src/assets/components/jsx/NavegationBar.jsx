@@ -1,15 +1,17 @@
 import '../css/NavegationBar.css'
 import Pdf from '../../documents/Gabriel_Viera_Resume.pdf'
+import { Link, Outlet } from 'react-router-dom'
 
 function NavegationBar() {
     return (
+        <>
         <nav className='navegationBar'>
             <ul className='navegationBar__list'>
                 <li className='navegationBar__item'>
-                    <a className="navegationBar__link navegationBar__link--me" href="">Me</a>
+                    <Link className="navegationBar__link navegationBar__link--me" to="/">Me</Link>
                 </li>
                 <li className='navegationBar__item'>
-                    <a className="navegationBar__link navegationBar__link--projects" target="_blank" href="https://github.com/G4vp">Projects</a>
+                    <Link className="navegationBar__link navegationBar__link--projects" to="/projects">Projects</Link>
                 </li>
                 <li className='navegationBar__item'>
                     <a className="navegationBar__link navegationBar__link--resume" target="_blank" href= {Pdf}>Resume</a>
@@ -40,6 +42,8 @@ function NavegationBar() {
                 </li>
             </ul>
         </nav>
+        <Outlet></Outlet>
+        </>
     )
 }
 

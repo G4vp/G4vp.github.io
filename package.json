@@ -19,6 +19,7 @@
     "@types/react-dom": "^18.0.9",
     "@vitejs/plugin-react": "^3.0.0",
     "gh-pages": "^5.0.0",
+    "react-router-dom": "^6.21.3",
     "vite": "^4.4.9"
   },
   "homepage": "https://g4vp.github.io"

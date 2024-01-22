@@ -1,11 +1,11 @@
-.body{
+.me{
     display: flex;
     flex-direction: row;
     gap: 1rem;
     min-width: 10rem;
 }
 @media only screen and (max-width: 37.5rem) {
-    .body{
+    .me{
         flex-direction: column;
     }
 }
