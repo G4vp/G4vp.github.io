@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import "../css/LeftSide.css"
+import IconBlank from "../../photos/IconBlank.png";
 
 
 function LeftSide(){
@@ -17,7 +18,7 @@ function LeftSide(){
         <div className="leftContainer">
             <div className="leftContainer__top">
                 <div className="leftContainer__topImageContainer">
-                    <img className="leftContainer__topImage" src="src/assets/photos/IconBlank.png" alt="" />
+                    <img className="leftContainer__topImage" src={IconBlank} alt="" />
                 </div>
             </div>
 
