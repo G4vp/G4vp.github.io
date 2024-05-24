@@ -1,9 +1,10 @@
 import '../css/App.css'
 import NavegationBar from './NavegationBar'
 import Me from './Me'
-import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Projects from './Projects';
+import Projects from './Projects'
+import Resume from './Resume'
+import ReactDOM from "react-dom/client"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             <Route path="/" element={<NavegationBar/>}>
               <Route index element={<Me/>} />
               <Route path="projects"element={<Projects/>} />
+              <Route path="resume"element={<Resume/>} />
             </Route>
           </Routes>
         </BrowserRouter>

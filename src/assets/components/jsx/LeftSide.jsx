@@ -2,7 +2,6 @@ import React, {useState, useEffect} from "react";
 import "../css/LeftSide.css"
 import IconBlank from "../../photos/IconBlank.png";
 
-
 function LeftSide(){
     const [age, setAge] = useState(0);
     const myBirthDay = new Date(2003,3,8)

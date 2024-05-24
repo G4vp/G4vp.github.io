@@ -1,5 +1,4 @@
 import '../css/NavegationBar.css'
-import Pdf from '../../documents/Gabriel_Viera_Resume.pdf'
 import { Link, Outlet } from 'react-router-dom'
 
 function NavegationBar() {
@@ -14,7 +13,7 @@ function NavegationBar() {
                     <Link className="navegationBar__link navegationBar__link--projects" to="/projects">Projects</Link>
                 </li>
                 <li className='navegationBar__item'>
-                    <a className="navegationBar__link navegationBar__link--resume" target="_blank" href= {Pdf}>Resume</a>
+                    <Link className="navegationBar__link navegationBar__link--resume"to="/resume">Resume</Link>
                 </li>
             </ul>
             <ul className="socialNetworks_list">
