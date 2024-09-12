@@ -10,9 +10,6 @@ function NavegationBar() {
                     <Link className="navegationBar__link navegationBar__link--me" to="/">Me</Link>
                 </li>
                 <li className='navegationBar__item'>
-                    <Link className="navegationBar__link navegationBar__link--projects" to="/projects">Projects</Link>
-                </li>
-                <li className='navegationBar__item'>
                     <Link className="navegationBar__link navegationBar__link--resume"to="/resume">Resume</Link>
                 </li>
             </ul>

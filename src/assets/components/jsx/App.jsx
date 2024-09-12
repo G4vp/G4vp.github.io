@@ -14,7 +14,6 @@ function App() {
           <Routes className='container'>
             <Route path="/" element={<NavegationBar/>}>
               <Route index element={<Me/>} />
-              <Route path="projects"element={<Projects/>} />
               <Route path="resume"element={<Resume/>} />
             </Route>
           </Routes>

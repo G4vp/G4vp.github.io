@@ -9,9 +9,7 @@ function Resume() {
         src={Pdf} 
         frameborder="0" 
         title="Gabriel Viera Resume"
-        
         allowFullScreen
-
         ></iframe>
     </div>
     )
