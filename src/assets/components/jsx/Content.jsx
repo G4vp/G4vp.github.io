@@ -12,7 +12,7 @@ function Content(){
                     Google Intern
                 </li>
                 <li className="content__description__element">
-                    Indie Game Developer
+                    Cat Owner
                 </li>
             </ul>
             <ul className="content__List">
@@ -69,10 +69,13 @@ function Content(){
             </ul>
             <h2>Who am I?</h2>
             <p className="content__paragraph">
-            I am a 21-year-old programmer from Puerto Rico who loves developing web pages, video games, APIs, and anything else that comes to mind. Currently, I am in my sixth semester of university studying Software Engineering, but since I was 15, I have been learning new things on my own in my free time.
+            I'm a 21-year-old software engineering student from Puerto Rico who is always trying to learn new things about computers. I really enjoy building cool things and solving programming problems. I'm currently very focused on learning low-level programming and electronics. &lt;3
             <br></br>
             <br></br>
-            During the summer of 2022, I worked as an intern at Google, where I designed and implemented validation and verification of HTTP requests to a proxy using an Open-API schema. Additionally, I am an undergraduate cybersecurity researcher at the University of Puerto Rico - Mayaguez Campus. As a hobby, I develop 2D and 3D video games using C# and the Godot Game Engine. :)
+            I have a background in various areas of software, such as cloud computing, backend development, frontend development, computer architecture, cybersecurity, web applications, robotics, game development, and competitive programming. :)
+            <br></br>
+            <br></br>
+            Thanks for stopping by! If anything here caught your interest or if we share similar passions, feel free to reach out to me on <a href="https://www.linkedin.com/in/gabriel-a-viera-76a9081b2/">LinkedIn</a>. I’d love to connect!
             </p>
         </div>
     );
