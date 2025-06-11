@@ -1,0 +1,14 @@
+.Separator {
+  display: flex;
+  background-color: #515151;
+  width: 40vw;
+  height: 6.5rem;
+  align-items: center;
+  padding-left: 35px;
+
+}
+
+.Separator-Title {
+  color: #fff;
+  font-size: 50px;
+}

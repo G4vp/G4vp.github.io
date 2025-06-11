@@ -1,0 +1,33 @@
+.header {
+  width: 88vw;
+  position: relative;
+  margin: 0px 0px 0px 12vw;
+  z-index: 1;
+}
+.header-title {
+  background-color: #fff;
+  width: 88vw;
+  height: 13.875rem;
+}
+
+.header-title-text {
+  color: #515151;
+  font-size: 128px;
+  position: relative;
+  top: 45px;
+  left: 35px;
+}
+
+.header-subtitle {
+  display: flex;
+  background-color: #515151;
+  width: 88vw;
+  height: 6.5rem;
+  align-items: center;
+  padding-left: 35px;
+}
+
+.header-subtitle-text {
+  color: #fff;
+  font-size: 50px;
+}
