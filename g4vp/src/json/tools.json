@@ -1,0 +1,24 @@
+{
+  "programming_languages": {
+    "python": {
+      "name": "Python",
+      "icon_src": "..."
+    },
+    "cpp": {
+      "name": "C++",
+      "icon_src": "..."
+    } 
+  },
+  "frameworks": {
+    "react": {
+      "name": "React",
+      "icon_src": "..."
+    },
+    "open_cv": {
+      "name": "OpenCV",
+      "icon_src": "..."
+    } 
+  },
+  "hardware": {},
+  "tools": {}
+}

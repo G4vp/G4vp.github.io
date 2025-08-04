@@ -1,9 +1,12 @@
 import "./Separator.css"
 
-function Separator(){
+type SeparatorProps = {
+  title : string;
+}
+function Separator(props: SeparatorProps){
   return(
   <div className="Separator">
-    <text className="Separator-Title">&gt;_ Skills</text>
+    <text className="Separator-Title">&gt;_ {props.title}</text>
   </div> 
   );
 };
