@@ -7,7 +7,47 @@
     "cpp": {
       "name": "C++",
       "icon_src": "..."
-    } 
+    }, 
+    "c": {
+      "name":"C",
+      "icon_src": ".../.../public/c.svg"
+    },
+    "go": {
+      "name":"Go",
+      "icon_src": ".../.../public/go.svg"
+    },
+    "c#": {
+      "name":"C#",
+      "icon_src": ".../.../public/c.svg"
+    },
+    "javascript": {
+      "name":"Javascript",
+      "icon_src":".../.../public/javascript.svg"
+    },
+    "css": {
+      "name":"CSS",
+      "icon_src":".../.../public/css.svg"
+    },
+    "html": {
+      "name":"HTML",
+      "icon_src":".../.../public/html.svg"
+    },
+    "java": {
+      "name":"Java",
+      "icon_src":".../.../public/java.svg"
+    },
+    "6502 ASM": {
+      "name":"6502 ASM",
+      "icon_src":".../.../public/6502_ASM.svg"
+    },
+    "typescript": {
+      "name":"Typescript",
+      "icon_src":".../.../public/typescript.svg"
+    },
+    "bash": {
+      "name":"Bash",
+      "icon_src":".../.../public/bash.svg"
+    }
   },
   "frameworks": {
     "react": {
@@ -17,8 +57,58 @@
     "open_cv": {
       "name": "OpenCV",
       "icon_src": "..."
-    } 
+    }, 
+    "openframeworks": {
+      "name": "Openframeworks",
+      "icon_src": ".../.../public/openframeworks.svg"
+    },
+    "openapi": {
+      "name": "OpenAPI",
+      "icon_src": ".../.../public/openapi.svg"
+    },
+    "godot": {
+      "name": "Godot",
+      "icon_src": ".../.../public/godot.svg"
+    },
+    "unity": {
+      "name": "Unity",
+      "icon_src": ".../.../public/unity.svg"
+    },
+    "supabase": {
+      "name": "Supabase",
+      "icon_src": ".../.../public/supabase.svg"
+    }
   },
-  "hardware": {},
-  "tools": {}
+  "hardware": {
+    "arduino": {
+      "name": "Arduino",
+      "icon_src": ".../.../public/arduino.svg"
+    },
+    "raspberry_pi": {
+      "name": "Raspberry Pi",
+      "icon_src": ".../.../public/raspberry_pi.svg"
+    }
+  },
+  "tools": {
+    "ubuntu": {
+      "name": "Ubuntu",
+      "icon_src": ".../.../public/ubuntu.svg"
+    },
+    "arch": {
+      "name": "Arch",
+      "icon_src": ".../.../public/arch.svg"
+    },
+    "fedora": {
+      "name": "Fedora",
+      "icon_src": ".../.../public/fedora.svg"
+    },
+    "git": {
+      "name": "Git",
+      "icon_src": ".../.../public/git.svg"
+    },
+    "freecad": {
+      "name": "Freecad",
+      "icon_src": ".../.../public/freecad.svg"
+    }
+  }
 }
