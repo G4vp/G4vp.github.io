@@ -3,16 +3,19 @@ import HeaderBlock from './components/Header'
 import SeparatorBlock from './components/Separator'
 import GabrielPhoto from './assets/Cuadrado.jpg'
 import Tools from './components/ToolTag'
+import Footer from './components/Footer'
 
 const HomePage = () => {
   return (
     <div className="card">
+      <div className="noise-overlay"></div>
       <HeaderBlock title="About" subtitle="Gabriel Viera [G4vp]"/>
       <div className="card-content">
           <img src={GabrielPhoto} alt="PhotoOfMe" className="my_picture"/>
           <SeparatorBlock title="Who am I?"/>
           <div className="sub-content">
-            <text className="content-text"> I'm a 21-year-old  software engineering student from Puerto Rico
+            <p className="content-text">
+            I'm a 21-year-old  software engineering student from Puerto Rico
             who is always trying to  learn new things about computers. I really 
             enjoy building cool things  and solving programming problems. I'm 
             currently very focused on learning low-level programming and 
@@ -22,10 +25,29 @@ const HomePage = () => {
             development, and competitive  programming. :)
             Thanks for stopping by! If anything here caught your interest or if 
             we share similar passions, feel free to reach out to me on LinkedIn. 
-            I’d love to connect!</text></div>
+            I’d love to connect!
+            </p>
+          </div>
           <SeparatorBlock title="Skills"/>
-          <Tools/> 
+          <div className="sub-content">
+            <Tools/> 
+          </div>
           <SeparatorBlock title="Links"/>
+          <div className="sub-content">
+            <ul className="socials-list">
+              <li className="socials-list-item">
+                X<a href="https://github.com/G4vp"> Github</a>
+              </li>
+              <li className="socials-list-item">
+                X<a href="https://www.linkedin.com/in/gabriel-a-viera/"> Linked-In
+                </a>
+              </li>
+              <li className="socials-list-item">
+                X<a href="https://g4vp.itch.io/"> Itch.io</a>
+              </li>
+            </ul> 
+          </div>
+        <Footer/>
       </div>
     </div> 
   );

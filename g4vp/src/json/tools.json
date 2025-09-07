@@ -2,113 +2,113 @@
   "programming_languages": {
     "python": {
       "name": "Python",
-      "icon_src": "..."
+      "icon_src": "/python.svg"
     },
     "cpp": {
       "name": "C++",
-      "icon_src": "..."
+      "icon_src": "/cpp.svg"
     }, 
     "c": {
       "name":"C",
-      "icon_src": ".../.../public/c.svg"
+      "icon_src": "/c.svg"
     },
     "go": {
       "name":"Go",
-      "icon_src": ".../.../public/go.svg"
+      "icon_src": "/go.svg"
     },
     "c#": {
       "name":"C#",
-      "icon_src": ".../.../public/c.svg"
+      "icon_src": "/csharp.svg"
     },
     "javascript": {
       "name":"Javascript",
-      "icon_src":".../.../public/javascript.svg"
+      "icon_src":"/javascript.svg"
     },
     "css": {
       "name":"CSS",
-      "icon_src":".../.../public/css.svg"
+      "icon_src":"/css.svg"
     },
     "html": {
       "name":"HTML",
-      "icon_src":".../.../public/html.svg"
+      "icon_src":"/html.svg"
     },
     "java": {
       "name":"Java",
-      "icon_src":".../.../public/java.svg"
+      "icon_src":"/java.svg"
     },
     "6502 ASM": {
       "name":"6502 ASM",
-      "icon_src":".../.../public/6502_ASM.svg"
+      "icon_src":"/6502_ASM.svg"
     },
     "typescript": {
       "name":"Typescript",
-      "icon_src":".../.../public/typescript.svg"
+      "icon_src":"/typescript.svg"
     },
     "bash": {
       "name":"Bash",
-      "icon_src":".../.../public/bash.svg"
+      "icon_src":"/bash.svg"
     }
   },
   "frameworks": {
     "react": {
       "name": "React",
-      "icon_src": "..."
+      "icon_src": "/react.svg"
     },
     "open_cv": {
       "name": "OpenCV",
-      "icon_src": "..."
+      "icon_src": "/opencv.svg"
     }, 
     "openframeworks": {
       "name": "Openframeworks",
-      "icon_src": ".../.../public/openframeworks.svg"
+      "icon_src": "/openframeworks.svg"
     },
     "openapi": {
       "name": "OpenAPI",
-      "icon_src": ".../.../public/openapi.svg"
+      "icon_src": "/openapi.svg"
     },
     "godot": {
       "name": "Godot",
-      "icon_src": ".../.../public/godot.svg"
+      "icon_src": "/godot.svg"
     },
     "unity": {
       "name": "Unity",
-      "icon_src": ".../.../public/unity.svg"
+      "icon_src": "/unity.svg"
     },
     "supabase": {
       "name": "Supabase",
-      "icon_src": ".../.../public/supabase.svg"
+      "icon_src": "/supabase.svg"
     }
   },
   "hardware": {
     "arduino": {
       "name": "Arduino",
-      "icon_src": ".../.../public/arduino.svg"
+      "icon_src": "/arduino.svg"
     },
     "raspberry_pi": {
       "name": "Raspberry Pi",
-      "icon_src": ".../.../public/raspberry_pi.svg"
+      "icon_src": "/raspberry_pi.svg"
     }
   },
   "tools": {
     "ubuntu": {
       "name": "Ubuntu",
-      "icon_src": ".../.../public/ubuntu.svg"
+      "icon_src": "/ubuntu.svg"
     },
     "arch": {
       "name": "Arch",
-      "icon_src": ".../.../public/arch.svg"
+      "icon_src": "/arch.svg"
     },
     "fedora": {
       "name": "Fedora",
-      "icon_src": ".../.../public/fedora.svg"
+      "icon_src": "/fedora.svg"
     },
     "git": {
       "name": "Git",
-      "icon_src": ".../.../public/git.svg"
+      "icon_src": "/git.svg"
     },
     "freecad": {
       "name": "Freecad",
-      "icon_src": ".../.../public/freecad.svg"
+      "icon_src": "/freecad.svg"
     }
   }
 }
