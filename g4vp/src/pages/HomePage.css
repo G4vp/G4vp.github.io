@@ -1,0 +1,58 @@
+.card {
+  width: 100vw;
+  border-radius: 4px;
+  background: linear-gradient(90deg,#CCC5AA, #D3C9A3);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.card-content {
+  width: 88vw;
+  position: relative;
+  margin: 0px 0px 0px 12vw;
+  background: rgba(0,0,0,.07);
+  z-index: 1;
+  padding: 3.5rem 2.5rem 0rem 2.5rem;
+}
+
+.my_picture {
+  width: 700px;
+  height: 700px;
+  object-fit: cover;
+  border-radius: 50px;
+  margin: 1rem;
+}
+
+.sub-content{
+  width: 45vw;
+  padding: .5rem;
+}
+
+/* Style for main paragraph */
+.content-text {
+  font-size: 28px;
+  color: rgb(0,0,0);
+}
+
+/*Styles for Socials Links*/
+.socials-list {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.socials-list-item {
+  font-size: 32px;
+  color: rgb(0,0,0);
+}
+
+.socials-list-item:hover {
+  text-decoration: underline; 
+}
+
+.socials-list-item a {
+  color: #000;
+}
+
