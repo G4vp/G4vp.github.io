@@ -1,0 +1,30 @@
+.nav-bar {
+  position: fixed;
+  top: 825px;
+  left: 1900px;
+  z-index: 10;
+}
+
+.nav-links {
+  text-align: right;
+  color: #000;
+  list-style-type: none;
+}
+
+.nav-direction {
+  font-size: 24px;
+  color: #000;
+  text-decoration: underline;
+}
+
+.nav-direction:hover {
+  font-size: 30px;
+  color: #000;
+}
+
+.current-location {
+  background-color: #515151;
+  padding: 2px;
+  color: #fff;
+  text-decoration: none;
+}

@@ -2,6 +2,7 @@ import './ResumePage.css'
 import HeaderBlock from '../components/Header'
 import Footer from '../components/Footer'
 import NoiseFilter from '../components/NoiseFilter'
+import NavBar from '../components/NavBar'
 
 function ResumePage() {
   return(
@@ -9,6 +10,7 @@ function ResumePage() {
       <NoiseFilter/>
       <HeaderBlock title="Resume" subtitle="Last update of resume: Sept 25, 2025"/>
       <div className="card-content">
+        <NavBar/>
         <Footer/>
       </div>
     </div> 

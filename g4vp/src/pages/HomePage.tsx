@@ -5,12 +5,14 @@ import GabrielPhoto from '../assets/Cuadrado.jpg'
 import Tools from '../components/ToolTag'
 import Footer from '../components/Footer'
 import NoiseFilter from '../components/NoiseFilter'
+import NavBar from '../components/NavBar'
 
 const HomePage = () => {
   return (
     <div className="card">
       <NoiseFilter/>
       <HeaderBlock title="About" subtitle="Gabriel Viera [G4vp]"/>
+      <NavBar/> 
       <div className="card-content">
           <img src={GabrielPhoto} alt="PhotoOfMe" className="my_picture"/>
           <SeparatorBlock title="Who am I?"/>
