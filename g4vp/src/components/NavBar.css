@@ -28,3 +28,8 @@
   color: #fff;
   text-decoration: none;
 }
+
+.current-location:hover {
+  font-size: 30px;
+  color: #fff;
+}
