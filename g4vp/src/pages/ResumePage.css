@@ -16,3 +16,9 @@
   z-index: 1;
   padding: 3.5rem 2.5rem 0rem 2.5rem;
 }
+
+.resume-sub-content{
+  width: 60vw;
+  height: 155vh;
+  padding: .5rem;
+}

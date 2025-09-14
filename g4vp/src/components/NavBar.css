@@ -1,7 +1,7 @@
 .nav-bar {
   position: fixed;
-  top: 825px;
-  left: 1900px;
+  top: 80%;
+  left: 90%;
   z-index: 10;
 }
 
