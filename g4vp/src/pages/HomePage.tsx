@@ -16,7 +16,7 @@ const HomePage = () => {
       <div className="card-content">
           <img src={GabrielPhoto} alt="PhotoOfMe" className="my_picture"/>
           <SeparatorBlock title="Who am I?"/>
-          <div className="sub-content">
+          <div className="home-sub-content">
             <p className="content-text">
             I'm a 21-year-old  software engineering student from Puerto Rico
             who is always trying to  learn new things about computers. I really 
@@ -37,11 +37,11 @@ const HomePage = () => {
             </p>
           </div>
           <SeparatorBlock title="Skills"/>
-          <div className="sub-content">
+          <div className="home-sub-content">
             <Tools/> 
           </div>
           <SeparatorBlock title="Links"/>
-          <div className="sub-content">
+          <div className="home-sub-content">
             <ul className="socials-list">
               <li className="socials-list-item">
                 X<a href="https://github.com/G4vp"> Github</a>

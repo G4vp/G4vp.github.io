@@ -9,10 +9,10 @@ function HeaderBlock(props: HeaderProps) {
   return (
     <header className="header">
       <div className="header-title">
-        <text className="header-title-text">{props.title}</text>
+        <span className="header-title-text">{props.title}</span>
       </div>
       <div className="header-subtitle">
-        <text className="header-subtitle-text">&gt;_ {props.subtitle}</text>
+        <span className="header-subtitle-text">&gt;_ {props.subtitle}</span>
       </div>
     </header>
   )
