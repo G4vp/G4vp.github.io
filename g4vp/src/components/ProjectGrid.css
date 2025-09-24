@@ -1,9 +1,9 @@
-.resume-item-container {
+.project-item-container {
   width: 300px;
   height: 300px;
 }
 
-.resume-item-details-container {
+.project-item-details-container {
   display: flex;
   width: 300px;
   height: 300px;
@@ -15,13 +15,13 @@
   text-align: center;
 }
 
-.resume-details-title{
+.project-details-title{
   font-size: 32px;
   font-weight: bold;
   color: #fff;
 }
 
-.resume-details-subtitle{
+.project-details-subtitle{
   font-size: 20px;
   font-weight: bold;
   color: #fff;

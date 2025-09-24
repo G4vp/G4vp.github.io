@@ -1,14 +1,29 @@
 { 
   "Projects": {
-    "Rocky": {
-      "img_path" : "/projects-images/Rocky.png",
-      "title": "Rocky",
-      "subtitle": "C# | Godot | 2D Game"
+    "LiaDQ": {
+      "img_path" : "/projects-images/GoogleAds.jpg",
+      "title": "LIA DQ Exemption List",
+      "subtitle": "C++ | SQL | Google"
     },
-    "TheCopyCam": {
-      "img_path" : "/projects-images/TheCopyCam.png",
-      "title": "The Copy Cam",
-      "subtitle": "GDScript | Godot | 3D Game"
+    "SignalAPI": {
+      "img_path" : "/projects-images/Chromium.png",
+      "title": "WebAuthn Signal API",
+      "subtitle": "C++ | Chromium | Google"
+    },
+    "CloudAbuse": {
+      "img_path" : "/projects-images/GCloud.png",
+      "title": "Cloud Abuse",
+      "subtitle": "C++ | Golang | Google"
+    },
+    "Apigee": {
+      "img_path" : "/projects-images/Apigee.png",
+      "title": "External Schema Driven Config Proxies",
+      "subtitle": "Golang | OpenAPI |Google"
+    },
+    "LiDron": {
+      "img_path" : "/projects-images/Lidron.jpg",
+      "title": "LiDron - Autonomous Vehicle",
+      "subtitle": "Python | OpenCV | Robotics "
     },
     "OfficeSearch": {
       "img_path" : "/projects-images/OfficeSearch.jpeg",
@@ -19,6 +34,16 @@
       "img_path" : "/projects-images/BlackJackNES.jpeg",
       "title": "Super Black Jack NES",
       "subtitle": "6502 ASM | Low Level Programming"
+    },
+    "Rocky": {
+      "img_path" : "/projects-images/Rocky.png",
+      "title": "Rocky",
+      "subtitle": "C# | Godot | 2D Game"
+    },
+    "TheCopyCam": {
+      "img_path" : "/projects-images/TheCopyCam.png",
+      "title": "The Copy Cam",
+      "subtitle": "GDScript | Godot | 3D Game"
     },
     "Vendetree": {
       "img_path" : "/projects-images/Vendetree.png",
@@ -44,31 +69,6 @@
       "img_path" : "/projects-images/PacMan.png",
       "title": "Pac-Man Deluxe",
       "subtitle": "C++ | OpenFrameworks"
-    },
-    "LiDron": {
-      "img_path" : "/projects-images/Lidron.jpg",
-      "title": "LiDron - Autonomous Vehicle",
-      "subtitle": "Python | OpenCV | Robotics "
-    },
-    "LiaDQ": {
-      "img_path" : "/projects-images/GoogleAds.jpg",
-      "title": "LIA DQ Exemption List",
-      "subtitle": "C++ | SQL | Google"
-    },
-    "SignalAPI": {
-      "img_path" : "/projects-images/Chromium.png",
-      "title": "WebAuthn Signal API",
-      "subtitle": "C++ | Chromium | Google"
-    },
-    "CloudAbuse": {
-      "img_path" : "/projects-images/GCloud.png",
-      "title": "Cloud Abuse",
-      "subtitle": "C++ | Golang | Google"
-    },
-    "Apigee": {
-      "img_path" : "/projects-images/Apigee.png",
-      "title": "External Schema Driven Config Proxies",
-      "subtitle": "Golang | OpenAPI |Google"
     }
   }
 }

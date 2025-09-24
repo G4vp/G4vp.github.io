@@ -1,4 +1,4 @@
-import "./ResumeItem.css";
+import "./ProjectGrid.css";
 import * as myData from '../json/projects.json';
 import {useState} from 'react';
 
@@ -18,9 +18,9 @@ function ShowDetails(props: ProjectDetails) {
   }
   return(
       <div style={ImgStyle}>
-        <div className="resume-item-details-container"> 
-          <span className="resume-details-title">{props.title}</span>
-          <span className="resume-details-subtitle">{props.subtitle}</span>
+        <div className="project-item-details-container"> 
+          <span className="project-details-title">{props.title}</span>
+          <span className="project-details-subtitle">{props.subtitle}</span>
         </div>
       </div>
   )
@@ -40,25 +40,25 @@ function HiddenDetails(props: ProjectDetails) {
     )
 }
 
-function ResumeItem(props: ProjectDetails) {
+function ProjectItem(props: ProjectDetails) {
   const [IsHover, setIsHover] = useState(false);
   return(
-  <div className="resume-item-container" 
+  <div className="project-item-container" 
    onMouseEnter={()=>setIsHover(true)}
    onMouseLeave={()=>setIsHover(false)}>
     {IsHover ? ShowDetails(props) : HiddenDetails(props)}
   </div>);
 };
 
-function ResumeGrid() {
+function ProjectGrid() {
   const projects_data = myData.Projects as Record<string, ProjectDetails>;
   const projects_list = Object.keys(projects_data)
   .map((key)=> {
     const projects_details: ProjectDetails = projects_data[key];
     console.log(projects_details.title);
-    return ResumeItem(projects_details);
+    return ProjectItem(projects_details);
   });
   return(<div className="projects-grid">{projects_list}</div>);
 }
 
-export default ResumeGrid;
+export default ProjectGrid;
