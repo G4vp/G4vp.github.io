@@ -4,7 +4,7 @@ import Footer from '../components/Footer'
 import NoiseFilter from '../components/NoiseFilter'
 import NavBar from '../components/NavBar'
 
-import ResumeGrid from '../components/ResumeItem'
+import ProjectGrid from '../components/ProjectGrid'
 
 function ProjectsPage() {
   return(
@@ -13,7 +13,7 @@ function ProjectsPage() {
       <HeaderBlock title="Projects" subtitle="Discover some of my projects"/>
       <div className="card-content">
         <div className="projects-sub-content">
-          <ResumeGrid/>
+          <ProjectGrid/>
         </div>
         <NavBar/>
         <Footer/>

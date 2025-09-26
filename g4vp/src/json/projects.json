@@ -3,72 +3,86 @@
     "LiaDQ": {
       "img_path" : "/projects-images/GoogleAds.jpg",
       "title": "LIA DQ Exemption List",
-      "subtitle": "C++ | SQL | Google"
+      "subtitle": "C++ | SQL | Google",
+      "description": ""
     },
     "SignalAPI": {
       "img_path" : "/projects-images/Chromium.png",
       "title": "WebAuthn Signal API",
-      "subtitle": "C++ | Chromium | Google"
+      "subtitle": "C++ | Chromium | Google",
+      "description": ""
     },
     "CloudAbuse": {
       "img_path" : "/projects-images/GCloud.png",
       "title": "Cloud Abuse",
-      "subtitle": "C++ | Golang | Google"
+      "subtitle": "C++ | Golang | Google",
+      "description": ""
     },
     "Apigee": {
       "img_path" : "/projects-images/Apigee.png",
       "title": "External Schema Driven Config Proxies",
-      "subtitle": "Golang | OpenAPI |Google"
+      "subtitle": "Golang | OpenAPI |Google",
+      "description": ""
     },
     "LiDron": {
       "img_path" : "/projects-images/Lidron.jpg",
       "title": "LiDron - Autonomous Vehicle",
-      "subtitle": "Python | OpenCV | Robotics "
+      "subtitle": "Python | OpenCV | Robotics ",
+      "description": ""
     },
     "OfficeSearch": {
       "img_path" : "/projects-images/OfficeSearch.jpeg",
       "title": "Office Search",
-      "subtitle": "GDScript | Godot | 3D Game"
+      "subtitle": "GDScript | Godot | 3D Game",
+      "description": ""
     },
     "BlackJackNES": {
       "img_path" : "/projects-images/BlackJackNES.jpeg",
       "title": "Super Black Jack NES",
-      "subtitle": "6502 ASM | Low Level Programming"
+      "subtitle": "6502 ASM | Low Level Programming",
+      "description": ""
     },
     "Rocky": {
       "img_path" : "/projects-images/Rocky.png",
       "title": "Rocky",
-      "subtitle": "C# | Godot | 2D Game"
+      "subtitle": "C# | Godot | 2D Game",
+      "description": ""
     },
     "TheCopyCam": {
       "img_path" : "/projects-images/TheCopyCam.png",
       "title": "The Copy Cam",
-      "subtitle": "GDScript | Godot | 3D Game"
+      "subtitle": "GDScript | Godot | 3D Game",
+      "description": ""
     },
     "Vendetree": {
       "img_path" : "/projects-images/Vendetree.png",
       "title": "VendeTree",
-      "subtitle": "GDScript | Godot | 3D Game"
+      "subtitle": "GDScript | Godot | 3D Game",
+      "description": ""
     }, 
     "TutoringApp": {
       "img_path" : "/projects-images/TutoringApp.jpg",
       "title": "Tutoring App",
-      "subtitle": "JavaScript | React | Python"
+      "subtitle": "JavaScript | React | Python",
+      "description": ""
     }, 
     "ConwaysGameOfLife": {
       "img_path" : "/projects-images/ConwaysGameOfLife.jpeg",
       "title": "Conways Game Of Life",
-      "subtitle": "JavaScript | HTML | Simulation"
+      "subtitle": "JavaScript | HTML | Simulation",
+      "description": ""
     }, 
     "MusicVisualizer": {
       "img_path" : "/projects-images/MusicVisualizer.png",
       "title": "Music Visualizer",
-      "subtitle": "C++ | OpenFrameworks"
+      "subtitle": "C++ | OpenFrameworks",
+      "description": ""
     }, 
     "PacMan": {
       "img_path" : "/projects-images/PacMan.png",
       "title": "Pac-Man Deluxe",
-      "subtitle": "C++ | OpenFrameworks"
+      "subtitle": "C++ | OpenFrameworks",
+      "description": ""
     }
   }
 }
