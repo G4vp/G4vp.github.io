@@ -1,6 +1,6 @@
 import "./ProjectGrid.css";
+import "./ProjectPopUp.css"
 import * as myData from '../json/projects.json';
-import ProjectPopUp from './ProjectPopUp';
 import {useState} from 'react';
 
 export type ProjectDetails = {
@@ -52,6 +52,7 @@ function ProjectGrid() {
       "description": ""
     }
   );
+
   function ProjectItem(props: ProjectDetails) {
     const [IsHover, setIsHover] = useState(false);
     return(
@@ -64,6 +65,13 @@ function ProjectGrid() {
     </div>);
   };
 
+  function ProjectPopUp(props: ProjectDetails){
+    return (<div className="PopUp">
+              {props.title} 
+              <button onClick={()=>setShowPopUp(false)}></button>
+            </div>);
+  }
+
   const projects_data = myData.Projects as Record<string, ProjectDetails>;
   const projects_list = Object.keys(projects_data)
   .map((key)=> {
@@ -72,7 +80,7 @@ function ProjectGrid() {
   });
   return(<div>
           <div className="projects-grid">{projects_list} </div>
-          {ShowPopUp ? <ProjectPopUp props={PopUpDetails}/> : null}
+          {ShowPopUp ? ProjectPopUp(PopUpDetails) : null}
          </div>);
 }
 

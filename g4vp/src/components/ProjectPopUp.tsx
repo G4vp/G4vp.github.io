@@ -6,7 +6,10 @@ type ProjectData = {
 }
 
 function ProjectPopUp(data: ProjectData){
-  return (<div className="PopUp">{data.props.title}</div>);
+  return (<div className="PopUp">
+            {data.props.title} 
+            <button></button>
+          </div>);
 }
 
 export default ProjectPopUp;
