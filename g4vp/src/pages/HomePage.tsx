@@ -15,7 +15,7 @@ const HomePage = () => {
       <NavBar/> 
       <div className="card-content">
           <img src={GabrielPhoto} alt="PhotoOfMe" className="my_picture"/>
-          <SeparatorBlock title="Who am I?"/>
+          {/*<SeparatorBlock title="Who am I?"/>*/}
           <div className="home-sub-content">
             <p className="content-text">
             I'm a 21-year-old  software engineering student from Puerto Rico

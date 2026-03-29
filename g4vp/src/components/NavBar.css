@@ -1,35 +1,65 @@
 .nav-bar {
   position: fixed;
-  top: 80%;
-  left: 90%;
+  /* Moves it slightly further from the edge on mobile */
+  bottom: 2rem; 
+  right: 1.5rem;
   z-index: 10;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  padding: 10px;
+  border-radius: 12px;
 }
 
 .nav-links {
   text-align: right;
   color: #000;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-direction {
-  font-size: 24px;
+  /* Smaller base font for mobile touch targets */
+  font-size: 1.25rem; 
   color: #000;
   text-decoration: underline;
-}
-
-.nav-direction:hover {
-  font-size: 30px;
-  color: #000;
+  display: block;
+  margin-bottom: 0.5rem;
+  transition: all 0.2s ease;
 }
 
 .current-location {
   background-color: #515151;
-  padding: 2px;
+  padding: 4px 8px;
   color: #fff;
   text-decoration: none;
+  display: inline-block;
 }
 
-.current-location:hover {
-  font-size: 30px;
-  color: #fff;
+/* Hover effects only for devices with a mouse */
+@media (hover: hover) {
+  .nav-direction:hover,
+  .current-location:hover {
+    font-size: 1.8rem;
+    color: #000;
+  }
+  .current-location:hover {
+    color: #fff;
+  }
+}
+
+/* Desktop Overrides */
+@media (min-width: 768px) {
+  .nav-bar {
+    top: 75%;
+    left: 90%;
+    bottom: auto;
+    right: auto;
+    background: none;
+    backdrop-filter: none;
+  }
+  
+  .nav-direction {
+    font-size: 24px;
+  }
 }

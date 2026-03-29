@@ -1,14 +1,29 @@
 .Separator {
   display: flex;
   background-color: #515151;
-  width: 40vw;
-  height: 6.5rem;
+  /* On mobile, make it wider so the title fits comfortably */
+  width: 90%; 
+  height: 4.5rem; /* Slightly shorter on mobile for better proportions */
   align-items: center;
-  padding-left: 35px;
-  margin: 2.5rem 0rem;
+  padding-left: 20px;
+  margin: 2rem 0;
+  /* This creates a nice rounded edge on the right for that "tab" look */
+  border-radius: 0 10px 10px 0; 
 }
 
 .Separator-Title {
   color: #fff;
-  font-size: 50px;
+  /* Scale font between 28px and 50px */
+  font-size: clamp(1.75rem, 5vw, 3.125rem);
+  margin: 0;
+}
+
+/* Desktop Overrides */
+@media (min-width: 768px) {
+  .Separator {
+    width: 40vw;
+    height: 6.5rem;
+    padding-left: 35px;
+    margin: 2.5rem 0;
+  }
 }

@@ -1,7 +1,8 @@
+/* Base Styles (Mobile First) */
 .card {
-  width: 100vw;
-  border-radius: 4px;
-  background: linear-gradient(90deg,#CCC5AA, #D3C9A3);
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(90deg, #CCC5AA, #D3C9A3);
   position: relative;
   display: flex;
   flex-direction: column;
@@ -9,50 +10,72 @@
 }
 
 .card-content {
-  width: 88vw;
-  position: relative;
-  margin: 0px 0px 0px 12vw;
-  background: rgba(0,0,0,.07);
+  width: 100%; /* Take full width on mobile */
+  margin: 0;
+  background: rgba(0, 0, 0, 0.07);
   z-index: 1;
-  padding: 3.5rem 2.5rem 0rem 2.5rem;
+  padding: 2rem 1rem; /* Smaller padding for mobile */
+  box-sizing: border-box;
 }
 
 .my_picture {
-  width: 700px;
-  height: 700px;
+  width: 100%;      /* Image scales with the container */
+  max-width: 400px; /* Prevents it from getting too huge on tablets */
+  height: auto;     /* Maintains aspect ratio */
   object-fit: cover;
-  border-radius: 50px;
-  margin: 1rem;
+  border-radius: 30px;
+  margin: 1rem 0;
+  display: block;
 }
 
-.home-sub-content{
-  width: 45vw;
-  padding: .5rem;
+.home-sub-content {
+  width: 100%; /* Text takes full width on mobile */
+  padding: 0.5rem 0;
 }
 
-/* Style for main paragraph */
 .content-text {
-  font-size: 28px;
-  color: rgb(0,0,0);
+  font-size: 1.1rem; /* Use rem for better accessibility */
+  color: rgb(0, 0, 0);
+  line-height: 1.6;
 }
 
-/*Styles for Socials Links*/
 .socials-list {
   list-style-type: none;
-  margin: 0px;
-  padding: 0px;
+  padding: 0;
 }
 
 .socials-list-item {
-  font-size: 32px;
-  color: rgb(0,0,0);
-}
-
-.socials-list-item:hover {
-  text-decoration: underline; 
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .socials-list-item a {
   color: #000;
+  text-decoration: none;
 }
 
+.socials-list-item:hover {
+  text-decoration: underline;
+}
+
+/* Desktop & Large Tablet Styles */
+@media (min-width: 768px) {
+  .card-content {
+    width: 80%;
+    margin-left: 10%; /* Centers content or creates your offset look */
+    padding: 3.5rem 2.5rem;
+  }
+
+  .my_picture {
+    width: 500px; /* Larger for desktop, but not a hard 700px */
+    height: 500px;
+  }
+
+  .home-sub-content {
+    width: 60%; /* Keeps text lines from getting too long/hard to read */
+  }
+
+  .content-text {
+    font-size: 1.5rem;
+  }
+}

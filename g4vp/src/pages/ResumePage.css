@@ -1,7 +1,8 @@
+/* Base Mobile Styles */
 .card {
-  width: 100vw;
-  border-radius: 4px;
-  background: linear-gradient(90deg,#CCC5AA, #D3C9A3);
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(90deg, #CCC5AA, #D3C9A3);
   position: relative;
   display: flex;
   flex-direction: column;
@@ -9,16 +10,33 @@
 }
 
 .card-content {
-  width: 88vw;
-  position: relative;
-  margin: 0px 0px 0px 12vw;
-  background: rgba(0,0,0,.07);
+  width: 100%;
+  margin: 0; /* Remove the 12vw offset on mobile */
+  background: rgba(0, 0, 0, 0.07);
   z-index: 1;
-  padding: 3.5rem 2.5rem 0rem 2.5rem;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
 }
 
-.resume-sub-content{
-  width: 60vw;
-  height: 155vh;
-  padding: .5rem;
+.resume-sub-content {
+  width: 100%;
+  /* On mobile, we reduce the height so it doesn't 
+     feel like an endless scroll of a tiny PDF */
+  height: 70vh; 
+  padding: 0.5rem 0;
+  margin-bottom: 2rem;
+}
+
+/* Desktop Overrides */
+@media (min-width: 768px) {
+  .card-content {
+    width: 88vw;
+    margin-left: 12vw;
+    padding: 3.5rem 2.5rem;
+  }
+
+  .resume-sub-content {
+    width: 75vw; /* Give the resume more room on desktop */
+    height: 120vh;
+  }
 }

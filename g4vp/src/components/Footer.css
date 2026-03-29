@@ -1,4 +1,16 @@
 .rights-reserved {
-  color: rgb(0,0,0);
-  font-size: 24px;
+  color: rgb(0, 0, 0);
+  /* Starts at 14px on mobile and scales up to 24px on desktop */
+  font-size: clamp(0.875rem, 2vw, 1.5rem); 
+  text-align: left;
+  padding: 1rem 0;
+  opacity: 0.8; /* Subtle touch for footer text */
+}
+
+/* If you want it centered on mobile but left-aligned on desktop */
+@media (max-width: 768px) {
+  .rights-reserved {
+    text-align: center;
+    font-size: 1rem; /* Locked size for small screens */
+  }
 }

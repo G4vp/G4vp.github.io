@@ -1,32 +1,59 @@
+/* Base Mobile Styles */
 .header {
-  width: 88vw;
+  width: 100%;
   position: relative;
-  margin: 0px 0px 0px 12vw;
+  margin: 0;
   z-index: 1;
 }
+
 .header-title {
   background-color: #fff;
-  width: 88vw;
-  height: 13.875rem;
+  width: 100%;
+  /* Use min-height instead of fixed height so text doesn't 
+     overflow if it wraps to a second line on small phones */
+  min-height: 8rem; 
+  padding: 1rem 1.5rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
 }
 
 .header-title-text {
   color: #515151;
-  font-size: 128px;
-  position: relative;
-  top: 45px;
-  left: 35px;
+  /* Fluid font size: starts small, grows with screen width */
+  font-size: clamp(2.5rem, 8vw, 8rem); 
+  margin: 0;
+  line-height: 1.1;
 }
 
 .header-subtitle {
   display: flex;
   background-color: #515151;
-  height: 6.5rem;
+  min-height: 4rem;
   align-items: center;
-  padding-left: 35px;
+  padding: 0 1.5rem;
 }
 
 .header-subtitle-text {
   color: #fff;
-  font-size: 50px;
+  font-size: clamp(1.2rem, 4vw, 3rem);
+  margin: 0;
+}
+
+/* Tablet & Desktop Overrides */
+@media (min-width: 768px) {
+  .header {
+    width: 88%;
+    margin-left: 12%;
+  }
+  
+  .header-title {
+    height: 13.875rem;
+    padding-left: 35px;
+  }
+  
+  .header-subtitle {
+    height: 6.5rem;
+    padding-left: 35px;
+  }
 }

@@ -52,23 +52,36 @@ function ProjectGrid() {
       "description": ""
     }
   );
-
   function ProjectItem(props: ProjectDetails) {
-    const [IsHover, setIsHover] = useState(false);
-    return(
-    <div className="project-item-container" 
-     onMouseEnter={()=>setIsHover(true)}
-     onMouseLeave={()=>setIsHover(false)}
-     onClick={()=>{setShowPopUp(true)
-                   setPopUpDetails(props)}}>
-      {IsHover ? ShowDetails(props) : HiddenDetails(props)}
-    </div>);
-  };
+    // We move the hover logic to CSS, but keep the click for the PopUp
+    const ImgStyle = {
+      backgroundImage: `url(${props.img_path})`,
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      width: "100%",
+      height: "100%",
+    };
+  
+    return (
+      <div className="project-item-container" onClick={() => {
+        setPopUpDetails(props);
+        setShowPopUp(true);
+      }}>
+        <div style={ImgStyle} className="project-card-bg">
+          <div className="project-item-details-overlay"> 
+            <span className="project-details-title">{props.title}</span>
+            <span className="project-details-subtitle">{props.subtitle}</span>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   function ProjectPopUp(props: ProjectDetails){
     return (<div className="PopUp">
-              {props.title} 
               <button onClick={()=>setShowPopUp(false)}></button>
+              {props.title} 
+              <p>{props.description}</p>
             </div>);
   }
 

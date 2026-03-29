@@ -8,7 +8,6 @@ type ProjectData = {
 function ProjectPopUp(data: ProjectData){
   return (<div className="PopUp">
             {data.props.title} 
-            <button></button>
           </div>);
 }
 

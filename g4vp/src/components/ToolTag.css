@@ -1,38 +1,58 @@
+/* Container for the skill category title (e.g., "Languages") */
+.Skill-Subtitle {
+  color: #000;
+  /* Fluid font: scales between 24px on mobile and 32px on desktop */
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  font-weight: bold;
+  margin: 2.5rem 0 1rem 0;
+}
+
+/* The wrapper that holds all individual tags */
+.Skill-List {
+  display: flex;
+  flex-wrap: wrap; /* CRITICAL: Allows tags to move to the next line on mobile */
+  gap: 12px;       /* Consistent spacing between tags */
+  width: 100%;
+  max-width: 100%; /* Prevents horizontal scrolling */
+}
+
+/* Individual Tag Styling */
 .ToolTag {
   display: inline-flex;
   background-color: rgba(0, 0, 0, 0.06);
   align-items: center;
-  border-radius: 15px;
+  border-radius: 12px;
   gap: 8px;
-  padding: 6px 18px;
-
-
-  max-width: 300px;
+  padding: 8px 16px;
+  /* Ensure the tag doesn't get wider than the screen */
+  max-width: 100%; 
+  box-sizing: border-box;
 }
 
 .ToolTag-Img {
-  width: 32px;
-  height: 32px;
+  /* Scaled down slightly for mobile harmony */
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0; /* Prevents the icon from squishing */
   object-fit: contain;
 }
 
 .ToolTag-Text {
-  font-size: 24px;
-  font-weight: bold;
+  /* Fluid font: scales between 16px and 24px */
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  font-weight: normal;
   color: #000;
+  white-space: nowrap; /* Keeps text on one line within the tag */
 }
 
-.Skill-List {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px 
-}
-
-.Skill-Subtitle {
-  font-size: 32px;
-  margin-bottom: 16px;
-
-  font-size: 32px;
-  font-size: 32px;
-  color: #000;
+/* Tablet & Desktop Adjustments */
+@media (min-width: 768px) {
+  .ToolTag-Img {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .Skill-List {
+    gap: 16px;
+  }
 }
