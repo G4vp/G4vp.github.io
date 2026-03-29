@@ -27,3 +27,9 @@
 .PopUp button::after {
   content: "Close ✕";
 }
+
+.PopUp-Description {
+  font-size: clamp(.90rem, 2vw, 1.5rem); 
+  color: black;
+  margin-bottom: 1rem;
+}

@@ -1,5 +1,8 @@
 import "./ProjectGrid.css";
 import "./ProjectPopUp.css"
+import remarkGfm from 'remark-gfm'
+import Markdown from 'react-markdown'
+
 import * as myData from '../json/projects.json';
 import {useState} from 'react';
 
@@ -8,38 +11,6 @@ export type ProjectDetails = {
   title: string,
   subtitle: string,
   description: string
-}
-
-function ShowDetails(props: ProjectDetails) {
-  const ImgStyle = {
-    backgroundImage: `url(${props.img_path})`,
-    backgroundSize: "cover",
-    backgroundPosition: "center center",
-    borderRadius: "24px",
-    height: "300px"
-  }
-  return(
-      <div style={ImgStyle}>
-        <div className="project-item-details-container"> 
-          <span className="project-details-title">{props.title}</span>
-          <span className="project-details-subtitle">{props.subtitle}</span>
-        </div>
-      </div>
-  )
-}
-
-function HiddenDetails(props: ProjectDetails) {
-    const ImgStyle = {
-      backgroundImage: `url(${props.img_path})`,
-      backgroundSize: "cover",
-      backgroundPosition: "center center",
-      borderRadius: "24px",
-      height: "300px"
-    }
-    return (
-      <div style={ImgStyle}>
-      </div>
-    )
 }
 
 function ProjectGrid() {
@@ -52,6 +23,7 @@ function ProjectGrid() {
       "description": ""
     }
   );
+
   function ProjectItem(props: ProjectDetails) {
     // We move the hover logic to CSS, but keep the click for the PopUp
     const ImgStyle = {
@@ -80,8 +52,9 @@ function ProjectGrid() {
   function ProjectPopUp(props: ProjectDetails){
     return (<div className="PopUp">
               <button onClick={()=>setShowPopUp(false)}></button>
-              {props.title} 
-              <p>{props.description}</p>
+              <span className="PopUp-Description"> 
+                <Markdown remarkPlugins={[remarkGfm]}>{props.description}</Markdown>
+              </span>
             </div>);
   }
 
