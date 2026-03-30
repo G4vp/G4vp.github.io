@@ -23,6 +23,19 @@ function ProjectGrid() {
       "description": ""
     }
   );
+  const [markdownContent, setMarkdownContent] = useState("");
+
+  async function handleProjectClick(props: ProjectDetails) {
+    setPopUpDetails(props);
+    if (props.description.endsWith('.md')) {
+      const response = await fetch(`/${props.description}`);
+      const text = await response.text();
+      setMarkdownContent(text);
+    } else {
+      setMarkdownContent(props.description);
+    }
+    setShowPopUp(true);
+  }
 
   function ProjectItem(props: ProjectDetails) {
     // We move the hover logic to CSS, but keep the click for the PopUp
@@ -33,12 +46,9 @@ function ProjectGrid() {
       width: "100%",
       height: "100%",
     };
-  
+
     return (
-      <div className="project-item-container" onClick={() => {
-        setPopUpDetails(props);
-        setShowPopUp(true);
-      }}>
+      <div className="project-item-container" onClick={() => handleProjectClick(props)}>
         <div style={ImgStyle} className="project-card-bg">
           <div className="project-item-details-overlay"> 
             <span className="project-details-title">{props.title}</span>
@@ -52,8 +62,8 @@ function ProjectGrid() {
   function ProjectPopUp(props: ProjectDetails){
     return (<div className="PopUp">
               <button onClick={()=>setShowPopUp(false)}></button>
-              <span className="PopUp-Description"> 
-                <Markdown remarkPlugins={[remarkGfm]}>{props.description}</Markdown>
+              <span className="PopUp-Description">
+                <Markdown remarkPlugins={[remarkGfm]}>{markdownContent}</Markdown>
               </span>
             </div>);
   }

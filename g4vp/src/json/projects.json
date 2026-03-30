@@ -4,13 +4,13 @@
       "img_path" : "/projects-images/GoogleAds.jpg",
       "title": "LIA DQ Exemption List",
       "subtitle": "C++ | SQL | Google",
-      "description": "## LIA DQ Exemption List\n### Internship at Google - May 2025 - Aug 2025\n\n**Mountain View, California, United States**\n\n#### What I did:\n- Redesigned and implemented the **Data Quality Exemption List** system for Local Inventory Ads using C++ and Protocol Buffers, enabling granular merchant-level exemptions.\n- Developed SQL scripts to build a monitoring dashboard with Google internal tools, enhancing maintainability.\n\n#### Tools:\n`C++`, `SQL`, `Protocol Buffers`"
+      "description": "projects_descriptions/LiaDQ.md"
     },
     "SignalAPI": {
       "img_path" : "/projects-images/Chromium.png",
       "title": "WebAuthn Signal API",
       "subtitle": "C++ | Chromium | Google",
-      "description": ""
+      "description": "projects_descriptions/SignalAPI.md"
     },
     "CloudAbuse": {
       "img_path" : "/projects-images/GCloud.png",
