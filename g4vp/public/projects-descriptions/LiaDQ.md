@@ -1,5 +1,5 @@
 # LIA Data Quality Exemption Rework
-Internship at Google - May 2025 - Aug 2025
+Internship at Google - May 2025 - Aug 2025  
 Mountain View, California, United States
 ## What I did:
 - Redesigned and implemented the Data Quality Exemption List system for Local Inventory Ads using C++ and Protocol Buffers, enabling granular merchant-level exemptions on specific offers.

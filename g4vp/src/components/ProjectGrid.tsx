@@ -38,7 +38,6 @@ function ProjectGrid() {
   }
 
   function ProjectItem(props: ProjectDetails) {
-    // We move the hover logic to CSS, but keep the click for the PopUp
     const ImgStyle = {
       backgroundImage: `url(${props.img_path})`,
       backgroundSize: "cover",

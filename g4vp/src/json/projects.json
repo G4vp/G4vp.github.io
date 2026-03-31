@@ -4,85 +4,91 @@
       "img_path" : "/projects-images/GoogleAds.jpg",
       "title": "LIA DQ Exemption List",
       "subtitle": "C++ | SQL | Google",
-      "description": "projects_descriptions/LiaDQ.md"
+      "description": "projects-descriptions/LiaDQ.md"
     },
     "SignalAPI": {
       "img_path" : "/projects-images/Chromium.png",
       "title": "WebAuthn Signal API",
       "subtitle": "C++ | Chromium | Google",
-      "description": "projects_descriptions/SignalAPI.md"
+      "description": "projects-descriptions/SignalAPI.md"
     },
     "CloudAbuse": {
       "img_path" : "/projects-images/GCloud.png",
       "title": "Cloud Abuse",
       "subtitle": "C++ | Golang | Google",
-      "description": ""
+      "description": "projects-descriptions/CloudAbuse.md"
     },
     "Apigee": {
       "img_path" : "/projects-images/Apigee.png",
       "title": "External Schema Driven Config Proxies",
       "subtitle": "Golang | OpenAPI |Google",
-      "description": ""
+      "description": "projects-descriptions/Apigee.md"
     },
     "LiDron": {
       "img_path" : "/projects-images/Lidron.jpg",
       "title": "LiDron - Autonomous Vehicle",
       "subtitle": "Python | OpenCV | Robotics ",
-      "description": ""
+      "description": "projects-descriptions/LiDron.md"
+    },
+    "Guanabana": {
+      "img_path" : "/projects-images/Guanabana.png",
+      "title": "College Syllabus ChatBot",
+      "subtitle": "AI RAG | ChatBot | Python",
+      "description": "projects-descriptions/Guanabana.md"
     },
     "OfficeSearch": {
       "img_path" : "/projects-images/OfficeSearch.jpeg",
       "title": "Office Search",
       "subtitle": "GDScript | Godot | 3D Game",
-      "description": ""
+      "description": "projects-descriptions/OfficeSearch.md"
     },
     "BlackJackNES": {
       "img_path" : "/projects-images/BlackJackNES.jpeg",
       "title": "Super Black Jack NES",
       "subtitle": "6502 ASM | Low Level Programming",
-      "description": ""
+      "description": "projects-descriptions/BlackJackNES.md"
     },
     "Rocky": {
       "img_path" : "/projects-images/Rocky.png",
       "title": "Rocky",
       "subtitle": "C# | Godot | 2D Game",
-      "description": ""
+      "description": "projects-descriptions/Rocky.md"
     },
     "TheCopyCam": {
       "img_path" : "/projects-images/TheCopyCam.png",
       "title": "The Copy Cam",
       "subtitle": "GDScript | Godot | 3D Game",
-      "description": ""
+      "description": "projects-descriptions/TheCopyCam.md"
     },
     "Vendetree": {
       "img_path" : "/projects-images/Vendetree.png",
       "title": "VendeTree",
       "subtitle": "GDScript | Godot | 3D Game",
-      "description": ""
+      "description": "projects-descriptions/VendeTree.md"
     }, 
     "TutoringApp": {
       "img_path" : "/projects-images/TutoringApp.jpg",
       "title": "Tutoring App",
       "subtitle": "JavaScript | React | Python",
-      "description": ""
+      "description": "projects-descriptions/TutoringApp.md"
     }, 
     "ConwaysGameOfLife": {
       "img_path" : "/projects-images/ConwaysGameOfLife.jpeg",
       "title": "Conways Game Of Life",
       "subtitle": "JavaScript | HTML | Simulation",
-      "description": ""
+      "description": "projects-descriptions/ConwaysGameOfLife.md"
     }, 
     "MusicVisualizer": {
       "img_path" : "/projects-images/MusicVisualizer.png",
       "title": "Music Visualizer",
       "subtitle": "C++ | OpenFrameworks",
-      "description": ""
+      "description": "projects-descriptions/MusicVisualizer.md"
     }, 
     "PacMan": {
       "img_path" : "/projects-images/PacMan.png",
       "title": "Pac-Man Deluxe",
       "subtitle": "C++ | OpenFrameworks",
-      "description": ""
+      "description": "projects-descriptions/PacMan.md"
     }
   }
 }
