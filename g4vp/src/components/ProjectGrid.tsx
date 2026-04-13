@@ -15,18 +15,9 @@ export type ProjectDetails = {
 
 function ProjectGrid() {
   const [ShowPopUp, setShowPopUp] = useState(false);
-  const [PopUpDetails, setPopUpDetails] = useState<ProjectDetails>(
-    {
-      "img_path" : "",
-      "title": "",
-      "subtitle": "",
-      "description": ""
-    }
-  );
   const [markdownContent, setMarkdownContent] = useState("");
 
   async function handleProjectClick(props: ProjectDetails) {
-    setPopUpDetails(props);
     if (props.description.endsWith('.md')) {
       const response = await fetch(`/${props.description}`);
       const text = await response.text();
@@ -58,7 +49,7 @@ function ProjectGrid() {
     );
   }
 
-  function ProjectPopUp(props: ProjectDetails){
+  function ProjectPopUp(){
     return (<div className="PopUp">
               <button onClick={()=>setShowPopUp(false)}></button>
               <span className="PopUp-Description">
@@ -75,7 +66,7 @@ function ProjectGrid() {
   });
   return(<div>
           <div className="projects-grid">{projects_list} </div>
-          {ShowPopUp ? ProjectPopUp(PopUpDetails) : null}
+          {ShowPopUp ? ProjectPopUp() : null}
          </div>);
 }
 
