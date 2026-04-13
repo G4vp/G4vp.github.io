@@ -18,22 +18,29 @@ const HomePage = () => {
           {/*<SeparatorBlock title="Who am I?"/>*/}
           <div className="home-sub-content">
             <p className="content-text">
-            I'm a 21-year-old  software engineering student from Puerto Rico
-            who is always trying to  learn new things about computers. I really 
-            enjoy building cool things  and solving programming problems. I'm 
-            currently very focused on learning low-level programming and 
-            electronics.
-            <br/> 
-            <br/> 
-            I have a background in various areas of software, such as 
-            cloud computing, backend  development, frontend development, computer 
-            architecture, cybersecurity, web applications, robotics, game 
-            development, and competitive  programming. :)
-            <br/>
-            <br/> 
-            Thanks for stopping by! If anything here caught your interest or if 
-            we share similar passions, feel free to reach out to me on LinkedIn. 
-            I’d love to connect!
+              Hi! I'm Gabriel. I use Arch and Neovim, btw. 
+              Thank you for stopping by. I'm a software engineer 
+              from Puerto Rico who loves building things and is always seeking to 
+              learn new concepts about computers and the universe. 
+              <br/>
+              <br/>
+              Currently, I'm very focused on researching ways to optimize 
+              Retrieval-Augmented Generation (RAG) by finding hidden relationships 
+              inside the embeddings using math and linear algebra. 
+              <br/>
+              <br/>
+              I also love working on electronics and robotics projects by doing my own 
+              CAD designs, programming, 3D printing, and circuits. 
+              <br/> 
+              <br/> 
+              I have a background in various areas of software engineering, such as 
+              software design, cloud computing, full-stack development, computer 
+              architecture, operating systems, 
+              cybersecurity, web applications, robotics, game 
+              development, machine learning, and competitive programming. :)
+              <br/>
+              <br/> 
+              So yeah, I use Arch, btw.
             </p>
           </div>
           <SeparatorBlock title="Skills"/>
