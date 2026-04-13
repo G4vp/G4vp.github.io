@@ -8,7 +8,7 @@ function ResumePage() {
   return(
     <div className="card">
       <NoiseFilter/>
-      <HeaderBlock title="Resume" subtitle="Last update of resume: Sept 25, 2025"/>
+      <HeaderBlock title="Resume" subtitle="Last update of resume: April 11, 2026"/>
       <div className="card-content">
         <div className="resume-sub-content">
           <object 
